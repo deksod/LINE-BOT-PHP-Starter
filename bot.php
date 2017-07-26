@@ -63,8 +63,8 @@ else if($arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไ
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "ไปขุดชุดนี้มาจากถังขยะข้างบ้านได้เลยนะ";
   $arrPostData['messages'][1]['type'] = "image";
-  $arrPostData['messages'][1]['originalContentUrl'] = "https://ibb.co/hrCzs5";
-  $arrPostData['messages'][1]['previewImageUrl'] = "https://ibb.co/hrCzs5";
+  $arrPostData['messages'][1]['originalContentUrl'] = "https://image.ibb.co/mDYiKk/12.jpg";
+  $arrPostData['messages'][1]['previewImageUrl'] = "https://image.ibb.co/mDYiKk/12.jpg";
  }
  else if($rand == 6){
   $arrPostData = array();
@@ -72,8 +72,8 @@ else if($arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไ
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "ใส่ชุดนี้มาอวดที";
   $arrPostData['messages'][1]['type'] = "image";
-  $arrPostData['messages'][1]['originalContentUrl'] = "https://ibb.co/hrCzs5";
-  $arrPostData['messages'][1]['previewImageUrl'] = "https://ibb.co/hrCzs5";
+  $arrPostData['messages'][1]['originalContentUrl'] = "https://image.ibb.co/mDYiKk/12.jpg";
+  $arrPostData['messages'][1]['previewImageUrl'] = "https://image.ibb.co/mDYiKk/12.jpg";
  }
  else if($rand == 7){
   $arrPostData = array();
@@ -81,8 +81,8 @@ else if($arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไ
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "ใส่มาเป็นคู่เลยนะตัวเอง";
   $arrPostData['messages'][1]['type'] = "image";
-  $arrPostData['messages'][1]['originalContentUrl'] = "https://ibb.co/hrCzs5";
-  $arrPostData['messages'][1]['previewImageUrl'] = "https://ibb.co/hrCzs5";
+  $arrPostData['messages'][1]['originalContentUrl'] = "https://image.ibb.co/mDYiKk/12.jpg";
+  $arrPostData['messages'][1]['previewImageUrl'] = "https://image.ibb.co/mDYiKk/12.jpg";
  }
  else if($rand == 8){
   $arrPostData = array();
@@ -99,8 +99,8 @@ else if($arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไ
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "หลุดมาจากเผ่าไหนหรอ??";
   $arrPostData['messages'][1]['type'] = "image";
-  $arrPostData['messages'][1]['originalContentUrl'] = "https://ibb.co/hrCzs5";
-  $arrPostData['messages'][1]['previewImageUrl'] = "https://ibb.co/hrCzs5";
+  $arrPostData['messages'][1]['originalContentUrl'] = "https://image.ibb.co/mDYiKk/12.jpg";
+  $arrPostData['messages'][1]['previewImageUrl'] = "https://image.ibb.co/mDYiKk/12.jpg";
  }
  else if($rand == '10'){
   $arrPostData = array();
@@ -108,8 +108,8 @@ else if($arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไ
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "ใส่ชุดนี้ไปงานเลย";
   $arrPostData['messages'][1]['type'] = "image";
-  $arrPostData['messages'][1]['originalContentUrl'] = "https://ibb.co/hrCzs5";
-  $arrPostData['messages'][1]['previewImageUrl'] = "https://ibb.co/hrCzs5";
+  $arrPostData['messages'][1]['originalContentUrl'] = "https://image.ibb.co/mDYiKk/12.jpg";
+  $arrPostData['messages'][1]['previewImageUrl'] = "https://image.ibb.co/mDYiKk/12.jpg";
  }
  else if($rand == '11'){
   $arrPostData = array();
@@ -117,8 +117,8 @@ else if($arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไ
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "จะไปกับกิ๊กหรออ";
   $arrPostData['messages'][1]['type'] = "image";
-  $arrPostData['messages'][1]['originalContentUrl'] = "https://ibb.co/hrCzs5";
-  $arrPostData['messages'][1]['previewImageUrl'] = "https://ibb.co/hrCzs5";
+  $arrPostData['messages'][1]['originalContentUrl'] = "https://image.ibb.co/mDYiKk/12.jpg";
+  $arrPostData['messages'][1]['previewImageUrl'] = "https://image.ibb.co/mDYiKk/12.jpg";
  }
  else if($rand == '12'){
   $arrPostData = array();
@@ -126,8 +126,8 @@ else if($arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไ
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "ไม่ใส่ชุดนี้ ไม่ให้เข้างานนะเออ";
   $arrPostData['messages'][1]['type'] = "image";
-  $arrPostData['messages'][1]['originalContentUrl'] = "https://ibb.co/hrCzs5";
-  $arrPostData['messages'][1]['previewImageUrl'] = "https://ibb.co/hrCzs5";
+  $arrPostData['messages'][1]['originalContentUrl'] = "https://image.ibb.co/mDYiKk/12.jpg";
+  $arrPostData['messages'][1]['previewImageUrl'] = "https://image.ibb.co/mDYiKk/12.jpg";
  }
  else{
   $arrPostData = array();
@@ -135,8 +135,8 @@ else if($arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไ
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "ไม่ใส่ชุดนี้ ไม่ให้เข้างานนะเออ";
   $arrPostData['messages'][1]['type'] = "image";
-  $arrPostData['messages'][1]['originalContentUrl'] = "https://ibb.co/hrCzs5";
-  $arrPostData['messages'][1]['previewImageUrl'] = "https://ibb.co/hrCzs5";
+  $arrPostData['messages'][1]['originalContentUrl'] = "https://image.ibb.co/mDYiKk/12.jpg";
+  $arrPostData['messages'][1]['previewImageUrl'] = "https://image.ibb.co/mDYiKk/12.jpg";
  }
 }
 
