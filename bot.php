@@ -61,7 +61,7 @@ else if($arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไ
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "ไปขุดชุดนี้มาจากถังขยะข้างบ้านได้เลยนะ :)";
+  $arrPostData['messages'][0]['text'] = "ไปขุดชุดนี้มาจากถังขยะข้างบ้านได้เลยนะ";
   $arrPostData['messages'][1]['type'] = "image";
   $arrPostData['messages'][1]['originalContentUrl'] = "http://s3-ap-southeast-1.amazonaws.com/wpimages.mover.in.th/wp-content/uploads/2016/11/21104729/280.jpg";
   $arrPostData['messages'][1]['previewImageUrl'] = "http://s3-ap-southeast-1.amazonaws.com/wpimages.mover.in.th/wp-content/uploads/2016/11/21104729/280.jpg";
