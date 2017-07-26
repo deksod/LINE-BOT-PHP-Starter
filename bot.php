@@ -45,8 +45,8 @@ if($arrJson['events'][0]['message']['text'] == "สวัสดี"){
   $arrPostData['messages'][1]['type'] = "text";
   $arrPostData['messages'][1]['text'] = $rand;
   $arrPostData['messages'][2]['type'] = "image";
-  $arrPostData['messages'][2]['originalContentUrl'] = "https://storage.googleapis.com/gweb-uniblog-publish-prod/static/blog/images/google-200x200.7714256da16f.png";
-  $arrPostData['messages'][2]['previewImageUrl'] = "https://storage.googleapis.com/gweb-uniblog-publish-prod/static/blog/images/google-200x200.7714256da16f.png";
+  $arrPostData['messages'][2]['originalContentUrl'] = "https://www.dropbox.com/s/7wp3bc4xwzyb2ni/image01.jpg";
+  $arrPostData['messages'][2]['previewImageUrl'] = "https://www.dropbox.com/s/7wp3bc4xwzyb2ni/image01.jpg";
 }else{
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
