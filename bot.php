@@ -12,6 +12,7 @@ $arrHeader[] = "Content-Type: application/json";
 $arrHeader[] = "Authorization: Bearer {$strAccessToken}";
 
 $rand = rand(1,13);
+$rand2 = rand(1,10);
  
 if($arrJson['events'][0]['message']['text'] == "สวัสดีบอท"){
   $arrPostData = array();
@@ -137,6 +138,101 @@ else if($arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไ
   $arrPostData['messages'][1]['type'] = "image";
   $arrPostData['messages'][1]['originalContentUrl'] = "https://preview.ibb.co/bujJkQ/13.jpg";
   $arrPostData['messages'][1]['previewImageUrl'] = "https://preview.ibb.co/bujJkQ/13.jpg";
+ }
+}
+else if($arrJson['events'][0]['message']['text'] == "คำคม"){
+ if ($rand2 == '1'){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "มองหน้าแค่รู้ตา...
+แต่ถ้าลองมา แล้วจะติดใจ...
+
+#BOHOPARTY
+#GREENITE";
+ }
+ else if ($rand2 == '2'){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "หน้าตาก็ไม่โหด... แต่ทำไมโสดก็ไม่รู้
+  #BOHOPARTY
+  #GREENITE";
+ }
+ else if ($rand2 == '3'){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "โดนเทก็เซไป...
+  แต่ถ้าโดนใจก็เซมา...
+  #BOHOPARTY
+  #GREENITE";
+ }
+ else if ($rand2 == '4'){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "กินอยู่กับปาก...
+  อยากอยู่กับเธอ <3
+  #BOHO PARTY
+  #GREENITE";
+ }
+ else if ($rand2 == '5'){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "ส้มตำที่ว่าเผ็ด
+  จะเด็ดเหมือนเรามั๊ย?
+  #BOHO PARTY
+  #GREENITE";
+ }
+  else if ($rand2 == '6'){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "น้ำดื่มต้องใส่แก้ว
+  แต่ถ้าเป็นแฟนแล้ว ต้องใส่ใจ นะจ๊ะ
+  #BOHO PARTY
+  #GREENITE";
+ }
+  else if ($rand2 == '7'){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "น้ำไหลเปลี่ยนใจปลา
+  กาลเวลาเปลี่ยนใจคน
+  
+  #อกหักมาทางนี้
+  #BOHO PARTY
+  #GREENITE";
+ }
+  else if ($rand2 == '8'){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "อกหัก รักคุด ตุ๊ดเมิน เดินมาหาเรา
+  #BOHO PARTY
+  #GREENITE";
+ }
+  else if ($rand2 == '9'){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "ถ้าร้อนให้เปิดแอร์ แต่ถ้าอยากมีคนเทคแคร์ให้เปิดใจ
+  
+  ...แล้วก็มางาน
+  #BOHO PARTY
+  #GREENITE";
+ }
+  else if ($rand2 == '10'){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "โตแล้วอยากคบนานๆ...
+  ไม่อยากขึ้นคานเพราะกลัวความสูง
+  
+  #BOHO PARTY
+  #GREENITE";
  }
 }
 
