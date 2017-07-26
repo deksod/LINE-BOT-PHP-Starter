@@ -140,7 +140,8 @@ else if($arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไ
   $arrPostData['messages'][1]['previewImageUrl'] = "https://preview.ibb.co/bujJkQ/13.jpg";
  }
 }
-else if($arrJson['events'][0]['message']['text'] == "คำคม"){
+else if($arrJson['events'][0]['message']['text'] == "คำคม" || $arrJson['events'][0]['message']['text'] == "มุกเสี่ยว"
+       || $arrJson['events'][0]['message']['text'] == "เสี่ยวว่ะ" || $arrJson['events'][0]['message']['text'] == "เสี่ยวมาก"){
  if ($rand2 == '1'){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
