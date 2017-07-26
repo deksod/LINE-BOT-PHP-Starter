@@ -17,7 +17,7 @@ if($arrJson['events'][0]['message']['text'] == "สวัสดีบอท"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "สวัสดีค่ะ ".$arrJson['events'][0]['source']['name'];
+  $arrPostData['messages'][0]['text'] = "สวัสดีค่ะ ".$arrJson['events'][0]['source']['userProfile'];
 }
 else if($arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไรดี"){
  if($rand > 1){
