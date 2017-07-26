@@ -63,8 +63,8 @@ else if($arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไ
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "ไปขุดชุดนี้มาจากถังขยะข้างบ้านได้เลยนะ";
   $arrPostData['messages'][1]['type'] = "image";
-  $arrPostData['messages'][1]['originalContentUrl'] = "http://s3-ap-southeast-1.amazonaws.com/wpimages.mover.in.th/wp-content/uploads/2016/11/21104729/280.jpg";
-  $arrPostData['messages'][1]['previewImageUrl'] = "http://s3-ap-southeast-1.amazonaws.com/wpimages.mover.in.th/wp-content/uploads/2016/11/21104729/280.jpg";
+  $arrPostData['messages'][1]['originalContentUrl'] = "https://ibb.co/hrCzs5";
+  $arrPostData['messages'][1]['previewImageUrl'] = "https://ibb.co/hrCzs5";
  }
  else if($rand == 6){
   $arrPostData = array();
@@ -72,8 +72,8 @@ else if($arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไ
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "ใส่ชุดนี้มาอวดที";
   $arrPostData['messages'][1]['type'] = "image";
-  $arrPostData['messages'][1]['originalContentUrl'] = "http://fb1-ck.lnwfile.com/_/ck/_raw/zb/07/dy.png";
-  $arrPostData['messages'][1]['previewImageUrl'] = "http://fb1-ck.lnwfile.com/_/ck/_raw/zb/07/dy.png";
+  $arrPostData['messages'][1]['originalContentUrl'] = "https://ibb.co/hrCzs5";
+  $arrPostData['messages'][1]['previewImageUrl'] = "https://ibb.co/hrCzs5";
  }
  else if($rand == 7){
   $arrPostData = array();
@@ -81,8 +81,8 @@ else if($arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไ
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "ใส่มาเป็นคู่เลยนะตัวเอง";
   $arrPostData['messages'][1]['type'] = "image";
-  $arrPostData['messages'][1]['originalContentUrl'] = "http://e.lnwfile.com/_/e/_raw/kl/e3/i2.jpg";
-  $arrPostData['messages'][1]['previewImageUrl'] = "http://e.lnwfile.com/_/e/_raw/kl/e3/i2.jpg";
+  $arrPostData['messages'][1]['originalContentUrl'] = "https://ibb.co/hrCzs5";
+  $arrPostData['messages'][1]['previewImageUrl'] = "https://ibb.co/hrCzs5";
  }
  else if($rand == 8){
   $arrPostData = array();
@@ -99,35 +99,35 @@ else if($arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไ
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "หลุดมาจากเผ่าไหนหรอ??";
   $arrPostData['messages'][1]['type'] = "image";
-  $arrPostData['messages'][1]['originalContentUrl'] = "http://img.tarad.com/shop/l/leelavadeshop/img-lib/spd_20120918132028_b.jpg";
-  $arrPostData['messages'][1]['previewImageUrl'] = "http://img.tarad.com/shop/l/leelavadeshop/img-lib/spd_20120918132028_b.jpg";
+  $arrPostData['messages'][1]['originalContentUrl'] = "https://ibb.co/hrCzs5";
+  $arrPostData['messages'][1]['previewImageUrl'] = "https://ibb.co/hrCzs5";
  }
- else if($rand == 10){
+ else if($rand == '10'){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "ใส่ชุดนี้ไปงานเลย";
   $arrPostData['messages'][1]['type'] = "image";
-  $arrPostData['messages'][1]['originalContentUrl'] = "https://ae01.alicdn.com/kf/HTB1gtKELVXXXXb.XVXXq6xXFXXXN/Fashionistas-URSMART-printing-font-b-Bohemian-b-font-fashion-font-b-men-s-b-font-long.jpg";
-  $arrPostData['messages'][1]['previewImageUrl'] = "https://ae01.alicdn.com/kf/HTB1gtKELVXXXXb.XVXXq6xXFXXXN/Fashionistas-URSMART-printing-font-b-Bohemian-b-font-fashion-font-b-men-s-b-font-long.jpg";
+  $arrPostData['messages'][1]['originalContentUrl'] = "https://ibb.co/hrCzs5";
+  $arrPostData['messages'][1]['previewImageUrl'] = "https://ibb.co/hrCzs5";
  }
- else if($rand == 11){
+ else if($rand == '11'){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "จะไปกับกิ๊กหรออ";
   $arrPostData['messages'][1]['type'] = "image";
-  $arrPostData['messages'][1]['originalContentUrl'] = "http://static.weloveshopping.com/shop/client/000072/happyponyshop/extra/11871158.jpg";
-  $arrPostData['messages'][1]['previewImageUrl'] = "http://static.weloveshopping.com/shop/client/000072/happyponyshop/extra/11871158.jpg";
+  $arrPostData['messages'][1]['originalContentUrl'] = "https://ibb.co/hrCzs5";
+  $arrPostData['messages'][1]['previewImageUrl'] = "https://ibb.co/hrCzs5";
  }
- else if($rand == 12){
+ else if($rand == '12'){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "ไม่ใส่ชุดนี้ ไม่ให้เข้างานนะเออ";
   $arrPostData['messages'][1]['type'] = "image";
-  $arrPostData['messages'][1]['originalContentUrl'] = "http://www.bygoods.com/media/catalog/product/2/3/2356.jpg";
-  $arrPostData['messages'][1]['previewImageUrl'] = "http://www.bygoods.com/media/catalog/product/2/3/2356.jpg";
+  $arrPostData['messages'][1]['originalContentUrl'] = "https://ibb.co/hrCzs5";
+  $arrPostData['messages'][1]['previewImageUrl'] = "https://ibb.co/hrCzs5";
  }
  else{
   $arrPostData = array();
@@ -135,8 +135,8 @@ else if($arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไ
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "ไม่ใส่ชุดนี้ ไม่ให้เข้างานนะเออ";
   $arrPostData['messages'][1]['type'] = "image";
-  $arrPostData['messages'][1]['originalContentUrl'] = "http://www.bygoods.com/media/catalog/product/2/3/2356.jpg";
-  $arrPostData['messages'][1]['previewImageUrl'] = "http://www.bygoods.com/media/catalog/product/2/3/2356.jpg";
+  $arrPostData['messages'][1]['originalContentUrl'] = "https://ibb.co/hrCzs5";
+  $arrPostData['messages'][1]['previewImageUrl'] = "https://ibb.co/hrCzs5";
  }
 }
 
