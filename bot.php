@@ -235,6 +235,18 @@ else if($arrJson['events'][0]['message']['text'] == "คำคม" || $arrJson['
   #BOHO PARTY
   #GREENITE";
  }
+ else if ($rand2 == '11'){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "";
+ }
+ else if ($rand2 == '12'){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "";
+ }
 }
 
 
