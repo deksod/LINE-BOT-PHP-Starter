@@ -128,6 +128,15 @@ else if($arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไ
   $arrPostData['messages'][1]['originalContentUrl'] = "http://www.bygoods.com/media/catalog/product/2/3/2356.jpg";
   $arrPostData['messages'][1]['previewImageUrl'] = "http://www.bygoods.com/media/catalog/product/2/3/2356.jpg";
  }
+ else{
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "ไม่ใส่ชุดนี้ ไม่ให้เข้างานนะเออ";
+  $arrPostData['messages'][1]['type'] = "image";
+  $arrPostData['messages'][1]['originalContentUrl'] = "http://www.bygoods.com/media/catalog/product/2/3/2356.jpg";
+  $arrPostData['messages'][1]['previewImageUrl'] = "http://www.bygoods.com/media/catalog/product/2/3/2356.jpg";
+ }
 }
 
 
