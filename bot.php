@@ -24,7 +24,7 @@ else if($arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไ
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "ฉันว่า".$arrJson['events'][0]['source']['displayName']."เหมาะกับชุดนี้มากเลยนะ...";
+  $arrPostData['messages'][0]['text'] = "ฉันว่า".$arrJson['events'][0]['source']['getUserProfile']."เหมาะกับชุดนี้มากเลยนะ...";
   $arrPostData['messages'][1]['type'] = "image";
   $arrPostData['messages'][1]['originalContentUrl'] = "https://s-media-cache-ak0.pinimg.com/736x/9b/9c/9d/9b9c9d645da3c8188c22f13f2f97111c--boho-holiday-style-bohemian-bohemian-style-dress.jpg";
   $arrPostData['messages'][1]['previewImageUrl'] = "https://s-media-cache-ak0.pinimg.com/736x/9b/9c/9d/9b9c9d645da3c8188c22f13f2f97111c--boho-holiday-style-bohemian-bohemian-style-dress.jpg";
