@@ -21,7 +21,10 @@ if($arrJson['events'][0]['message']['text'] == "สวัสดีบอท"){
   $arrPostData['messages'][0]['text'] = "สวัสดีค่ะ";
 }
 else if($arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไรดี" || $arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไรไปดี" 
-       || $arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไรดีอ่ะ" || $arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไรไปดีอ่ะ"){
+       || $arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไรดีอ่ะ" || $arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไรไปดีอ่ะ"
+       || $arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไรดีครับ" || $arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไรไปดีคับ"
+       || $arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไรดีคะ" || $arrJson['events'][0]['message']['text'] == "ใส่ชุดอะไรไปดีนะ"
+       || $arrJson['events'][0]['message']['text'] == "มีชุดรึยัง" || $arrJson['events'][0]['message']['text'] == "มีชุดยัง"){
  if($rand == 1){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
