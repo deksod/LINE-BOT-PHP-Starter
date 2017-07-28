@@ -12,7 +12,7 @@ $arrHeader[] = "Content-Type: application/json";
 $arrHeader[] = "Authorization: Bearer {$strAccessToken}";
 
 $rand = rand(1,13);
-$rand2 = rand(1,11);
+$rand2 = rand(1,15);
  
 if($arrJson['events'][0]['message']['text'] == "สวัสดีบอท"){
   $arrPostData = array();
@@ -250,6 +250,44 @@ else if($arrJson['events'][0]['message']['text'] == "คำคม" || $arrJson['
   #GREENITE";
  }
  else if ($rand2 == '12'){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "...ตอนแรกคิดว่าหัวใจอยู่ข้างซ้าย..
+  ที่ไหนได้..หัวใจอยู่ข้างเธอ..<3
+  
+  #BOHOPARTY
+  #GREENITE";
+ }
+ else if ($rand2 == '13'){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "ลิขิตฟ้า หรือจะสู้ วาทะเมีย
+  
+  #BOHOPARTY
+  #GREENITE";
+ }
+ else if ($rand2 == '14'){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "เราเป็นคนดีเพราะเราถือศีล 5
+  คืนนี้เหล้าเบียร์มา เราก็ถือศีล 4
+  
+  #BOHOPARTY
+  #GREENITE";
+ }
+ else if ($rand2 == '15'){
+  $arrPostData = array();
+  $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
+  $arrPostData['messages'][0]['type'] = "text";
+  $arrPostData['messages'][0]['text'] = "ความรักก็เหมือนการลวกบะหมี่
+  ถ้าลวกไม่ดี ก็ไม่มีสุก
+  #BOHOPARTY
+  #GREENITE";
+ }
+ else if ($rand2 == '16'){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
