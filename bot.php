@@ -12,7 +12,7 @@ $arrHeader[] = "Content-Type: application/json";
 $arrHeader[] = "Authorization: Bearer {$strAccessToken}";
 
 $rand = rand(1,13);
-$rand2 = rand(1,10);
+$rand2 = rand(1,11);
  
 if($arrJson['events'][0]['message']['text'] == "สวัสดีบอท"){
   $arrPostData = array();
@@ -242,7 +242,12 @@ else if($arrJson['events'][0]['message']['text'] == "คำคม" || $arrJson['
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "";
+  $arrPostData['messages'][0]['text'] = "อยากเป็นแว่นให้เธอใส่
+  ถึงแม้จะไม่ได้อยู่ในใจ
+  แต่ก็ยังอยู่ในสายตา...
+  
+  #BOHOPARTY
+  #GREENITE";
  }
  else if ($rand2 == '12'){
   $arrPostData = array();
